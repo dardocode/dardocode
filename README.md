@@ -30,3 +30,34 @@
 🛠 CMS:           Drupal · WordPress
 🧪 Tools:         Docker · DDEV · Lando · Git · Composer · 
 ```Vite · TailwindCSS
+---
+
+### 🚀 Featured Projects
+
+- 🔧 **Coming soon:** Highlights of my contributions and personal experiments
+- 🎯 Working on tools that blend content strategy + modern development
+
+---
+
+### 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dardocode&show_icons=true&theme=radical" alt="GitHub Stats" />
+</p>
+
+---
+
+### 📫 Connect With Me
+
+- 🌐 [davidarredondo.dev](https://davidarredondo.dev)
+- 💼 [LinkedIn](https://www.linkedin.com/in/dardocode/)
+- 🧠 Sharing ideas, code and learning experiences weekly
+
+---
+
+### ✍️ Latest Blog / Notes (coming soon)
+> I’m working on publishing articles and insights about dev workflows, CMS strategies, and clean code — stay tuned!
+
+---
+
+📌 *Thanks for stopping by! Feel free to connect or collaborate 🤝*
