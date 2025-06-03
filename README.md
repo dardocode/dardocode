@@ -1,16 +1,32 @@
-## Hi there 👋
+<h1 align="center">Hi, I'm David Arredondo 👋</h1>
 
-<!--
-**dardocode/dardocode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/dardocode" width="120" alt="dardocode avatar" style="border-radius: 50%;">
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  🧑‍💻 Web developer sharing my journey with PHP, Laravel, JavaScript and CMS like Drupal & WordPress.  
+  Explorando arquitectura de contenido, código limpio y contribuciones open source.
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🚀 About Me
+
+- 🔭 Currently working on web projects using Drupal and WordPress
+- 🌱 Learning in public — improving every day
+- 💡 Passionate about content strategy, UX and building useful tools
+- 🌍 Based in 🇲🇽 Mexico
+- 🏷 Alias: **@dardocode**
+
+---
+
+### 🛠 Tech Stack
+
+```bash
+💻 Languages:     PHP · JavaScript · HTML · CSS · Bash
+🧰 Frameworks:    Laravel ·
+```Vue.js · React · Angular · Svelte
+🛠 CMS:           Drupal · WordPress
+🧪 Tools:         Docker · DDEV · Lando · Git · Composer · 
+```Vite · TailwindCSS
