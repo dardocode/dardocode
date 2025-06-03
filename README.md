@@ -6,7 +6,7 @@
 
 </div>
 
-> 💡 **Cita del día:** El debugging es como ser detective en una novela de crimen donde también eres el asesino. - Filipe Fortes
+> 💡 **Cita del día:** El código limpio siempre parece que fue escrito por alguien a quien le importa. - Robert C. Martin
 
 ---
 
@@ -92,7 +92,7 @@
 
 ### ⚡ "El código es poesía en movimiento" ⚡
 
-*Última actualización automática: 2025-06-03 19:55:10 UTC*
+*Última actualización automática: 2025-06-03 19:55:20 UTC*
 
 ![Snake animation](https://github.com/dardocode/dardocode/blob/output/github-contribution-grid-snake.svg)
 
