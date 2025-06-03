@@ -13,7 +13,7 @@
 
 ### 🚀 About Me
 
-- 🔭 Currently working on web projects using Drupal and WordPress
+- 🔭 Currently working on web projects using Laravel, Drupal and Vue
 - 🌱 Learning in public — improving every day
 - 💡 Passionate about content strategy, UX and building useful tools
 - 🌍 Based in 🇲🇽 Mexico
@@ -25,11 +25,12 @@
 
 ```bash
 💻 Languages:     PHP · JavaScript · HTML · CSS · Bash
-🧰 Frameworks:    Laravel ·
+🧰 Frameworks:    Laravel · 
 ```Vue.js · React · Angular · Svelte
 🛠 CMS:           Drupal · WordPress
 🧪 Tools:         Docker · DDEV · Lando · Git · Composer · 
 ```Vite · TailwindCSS
+
 ---
 
 ### 🚀 Featured Projects
