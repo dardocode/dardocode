@@ -18,8 +18,9 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
+          git config user.name "David Arredondo"
+          git config user.email "your-email@example.com"  # Puedes usar noreply si prefieres
           git add README.md
-          git diff --cached --quiet || git commit -m "Update README.md from Gist"
-          git push
+          git commit -m "Update README.md from Gist" || exit 0
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+
