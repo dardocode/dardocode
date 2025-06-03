@@ -6,7 +6,7 @@
 
 </div>
 
-> 💡 **Cita del día:** Primero, resuelve el problema. Entonces, escribe el código. - John Johnson
+> 💡 **Cita del día:** Cualquier tonto puede escribir código que una computadora pueda entender. Los buenos programadores escriben código que los humanos pueden entender. - Martin Fowler
 
 ---
 
@@ -92,7 +92,7 @@
 
 ### ⚡ "El código es poesía en movimiento" ⚡
 
-*Última actualización automática: 2025-06-03 19:54:26 UTC*
+*Última actualización automática: 2025-06-03 19:54:37 UTC*
 
 ![Snake animation](https://github.com/dardocode/dardocode/blob/output/github-contribution-grid-snake.svg)
 
