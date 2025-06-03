@@ -6,7 +6,7 @@
 
 </div>
 
-> 💡 **Cita del día:** Cualquier tonto puede escribir código que una computadora pueda entender. Los buenos programadores escriben código que los humanos pueden entender. - Martin Fowler
+> 💡 **Cita del día:** El código limpio siempre parece que fue escrito por alguien a quien le importa. - Robert C. Martin
 
 ---
 
@@ -92,7 +92,7 @@
 
 ### ⚡ "El código es poesía en movimiento" ⚡
 
-*Última actualización automática: 2025-06-03 19:53:05 UTC*
+*Última actualización automática: 2025-06-03 19:53:17 UTC*
 
 ![Snake animation](https://github.com/dardocode/dardocode/blob/output/github-contribution-grid-snake.svg)
 
