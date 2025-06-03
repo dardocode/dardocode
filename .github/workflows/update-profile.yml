@@ -16,10 +16,11 @@ jobs:
         run: |
           curl -s https://gist.githubusercontent.com/dardocode/e21a9926215feba1bc2e2c4ec4856d8f/raw > README.md
 
-     - name: Push changes
+      - name: Commit and push if changed
         run: |
           git config user.name "David Arredondo"
-          git config user.email "your-email@example.com"
+          git config user.email "dardocode@users.noreply.github.com"
           git add README.md
-          git commit -m "Update README.md from Gist" || exit 0
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/dardocode/dardocode HEAD:main
+          git commit -m "Update README.md from Gist" || echo "No changes to commit"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/dardocode/dardocode.git
+          git push origin HEAD:main
