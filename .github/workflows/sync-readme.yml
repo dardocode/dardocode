@@ -1,4 +1,4 @@
-name: Sync Profile README from Gist
+name: Sync Profile README from Gist Classic
 
 on:
   schedule:
