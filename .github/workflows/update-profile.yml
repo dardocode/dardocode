@@ -1,0 +1,25 @@
+name: Sync Profile README from Gist
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Todos los días a las 12:00 UTC
+  workflow_dispatch:  # Para ejecutarlo manualmente
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get README content from Gist
+        run: |
+          curl -s https://gist.githubusercontent.com/dardocode/e21a9926215feba1bc2e2c4ec4856d8f/raw > README.md
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update README.md from Gist"
+          git push
