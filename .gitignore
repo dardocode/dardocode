@@ -1,0 +1,82 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# IDEs
+.vscode/
+.idea/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+.cache/
+
+# PHP / Laravel
+vendor/
+.env
+.env.*
+.phpunit.result.cache
+storage/*.key
+storage/framework/*
+storage/logs/*
+bootstrap/cache/
+
+# DDEV
+.ddev/
+
+# Lando
+.lando.local.yml
+.lando.yml
+
+# Docker
+*.log
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Drupal
+sites/*/settings*.php
+sites/*/services*.yml
+sites/*/files/
+core/
+modules/contrib/
+themes/contrib/
+vendor/
+
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/plugins/
+wp-content/themes/
+*.log
+
+# Frontend frameworks (React, Vue, Angular, Svelte)
+build/
+public/build/
+.svelte-kit/
+.next/
+.nuxt/
+out/
+coverage/
+
+# Vite
+.vite/
+dist/
+
+# TailwindCSS
+tailwind.css
+tailwind-output.css
+
+# Docusaurus
+build/
+.do
