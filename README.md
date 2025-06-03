@@ -1,64 +1,99 @@
-<h1 align="center">Hi, I'm David Arredondo 👋</h1>
+# 🌆 ¡Hola! Soy dardocode 🚀
 
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/dardocode" width="120" alt="dardocode avatar" style="border-radius: 50%;">
-</p>
+<div align="center">
 
-<p align="center">
-  🧑‍💻 Web developer sharing my journey with PHP, Laravel, JavaScript and CMS like Drupal & WordPress.  
-  Explorando arquitectura de contenido, código limpio y contribuciones open source.
-</p>
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Desarrollador+Full+Stack;Siempre+aprendiendo+algo+nuevo;Tuesday, June 03)
 
----
+</div>
 
-### 🚀 About Me
-
-- 🔭 Currently working on web projects using Laravel, Drupal and Vue
-- 🌱 Learning in public — improving every day
-- 💡 Passionate about content strategy, UX and building useful tools
-- 🌍 Based in 🇲🇽 Mexico
-- 🏷 Alias: **@dardocode**
+> 💡 **Cita del día:** El código es como el humor. Cuando tienes que explicarlo, es malo. - Cory House
 
 ---
 
-### 🛠 Tech Stack
+## 🚀 Sobre mí
 
-```bash
-💻 Languages:     PHP · JavaScript · HTML · CSS · Bash
-🧰 Frameworks:    Laravel · 
-```Vue.js · React · Angular · Svelte
-🛠 CMS:           Drupal · WordPress
-🧪 Tools:         Docker · DDEV · Lando · Git · Composer · 
-```Vite · TailwindCSS
+- 🔭 Actualmente trabajando en proyectos emocionantes
+- 🌱 Siempre aprendiendo nuevas tecnologías
+- 👯 Abierto a colaboraciones interesantes
+- 💬 Pregúntame sobre desarrollo web, APIs, o cualquier cosa tech
+- ⚡ Dato curioso: Me encanta resolver problemas complejos con código elegante
+
+<div align="center">
+
+### 🛠️ Mi Stack Tecnológico
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+
+<div align="center">
+
+## 📊 Estadísticas de GitHub
+
+<img src="https://github-readme-stats.vercel.app/api?username=dardocode&show_icons=true&theme=radical" alt="GitHub Stats" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=dardocode&theme=radical" alt="GitHub Streak" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dardocode&layout=compact&theme=radical" alt="Top Languages" />
+
+</div>
+
+
+## 📈 Actividad Reciente
+
+<!--START_SECTION:activity-->
+<!-- Esta sección se actualiza automáticamente -->
+<!--END_SECTION:activity-->
+
+<div align="center">
+
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=dardocode&theme=radical)
+
+</div>
+
+
+## 🎯 Proyectos Destacados
+
+<div align="center">
+
+<!-- Repositorios que se actualizarán automáticamente -->
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dardocode&repo=repo1&theme=radical" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dardocode&repo=repo2&theme=radical" />
+</a>
+
+</div>
+
+
+## 🤝 Conecta conmigo
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dardocode)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/dardocode)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dardocode@gmail.com)
+
+### 📊 Visitantes del perfil
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=dardocode.dardocode)
+
+</div>
+
 
 ---
 
-### 🚀 Featured Projects
+<div align="center">
 
-- 🔧 **Coming soon:** Highlights of my contributions and personal experiments
-- 🎯 Working on tools that blend content strategy + modern development
+### ⚡ "El código es poesía en movimiento" ⚡
 
----
+*Última actualización automática: 2025-06-03 19:52:21 UTC*
 
-### 📈 GitHub Stats
+![Snake animation](https://github.com/dardocode/dardocode/blob/output/github-contribution-grid-snake.svg)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dardocode&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
-
----
-
-### 📫 Connect With Me
-
-- 🌐 [davidarredondo.dev](https://davidarredondo.dev)
-- 💼 [LinkedIn](https://www.linkedin.com/in/dardocode/)
-- 🧠 Sharing ideas, code and learning experiences weekly
-
----
-
-### ✍️ Latest Blog / Notes (coming soon)
-> I’m working on publishing articles and insights about dev workflows, CMS strategies, and clean code — stay tuned!
-
----
-
-📌 *Thanks for stopping by! Feel free to connect or collaborate 🤝*
+</div>
