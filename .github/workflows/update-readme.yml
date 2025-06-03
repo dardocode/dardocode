@@ -37,14 +37,14 @@ jobs:
       run: |
         python scripts/update_stats.py
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN_CLASSIC }}
         GITHUB_USERNAME: ${{ github.repository_owner }}
     
     - name: 📝 Update README with latest info
       run: |
         python scripts/generate_readme.py
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN_CLASSIC }}
         GITHUB_USERNAME: ${{ github.repository_owner }}
     
     - name: 🔍 Check for changes
