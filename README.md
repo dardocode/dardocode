@@ -6,7 +6,7 @@
 
 </div>
 
-> 💡 **Cita del día:** El código es como el humor. Cuando tienes que explicarlo, es malo. - Cory House
+> 💡 **Cita del día:** El debugging es como ser detective en una novela de crimen donde también eres el asesino. - Filipe Fortes
 
 ---
 
@@ -92,7 +92,7 @@
 
 ### ⚡ "El código es poesía en movimiento" ⚡
 
-*Última actualización automática: 2025-06-03 19:58:01 UTC*
+*Última actualización automática: 2025-06-03 19:58:12 UTC*
 
 ![Snake animation](https://github.com/dardocode/dardocode/blob/output/github-contribution-grid-snake.svg)
 
