@@ -6,7 +6,7 @@
 
 </div>
 
-> 💡 **Cita del día:** El código es como el humor. Cuando tienes que explicarlo, es malo. - Cory House
+> 💡 **Cita del día:** Primero, resuelve el problema. Entonces, escribe el código. - John Johnson
 
 ---
 
@@ -92,7 +92,7 @@
 
 ### ⚡ "El código es poesía en movimiento" ⚡
 
-*Última actualización automática: 2025-06-11 18:45:44 UTC*
+*Última actualización automática: 2025-06-11 18:45:47 UTC*
 
 ![Snake animation](https://github.com/dardocode/dardocode/blob/output/github-contribution-grid-snake.svg)
 
