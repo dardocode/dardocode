@@ -6,7 +6,7 @@
 
 </div>
 
-> 💡 **Cita del día:** Primero, resuelve el problema. Entonces, escribe el código. - John Johnson
+> 💡 **Cita del día:** El debugging es como ser detective en una novela de crimen donde también eres el asesino. - Filipe Fortes
 
 ---
 
@@ -92,7 +92,7 @@
 
 ### ⚡ "El código es poesía en movimiento" ⚡
 
-*Última actualización automática: 2025-06-11 18:40:35 UTC*
+*Última actualización automática: 2025-06-11 18:40:47 UTC*
 
 ![Snake animation](https://github.com/dardocode/dardocode/blob/output/github-contribution-grid-snake.svg)
 
