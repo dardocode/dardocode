@@ -64,7 +64,7 @@ jobs:
         git config --local user.name "GitHub Action"
         
         # Hacer pull para sincronizar cambios remotos
-        git pull --rebase origin main || git pull --rebase origin master
+        git pull origin main || git pull origin master
         
         # Agregar y hacer commit
         git add README.md
