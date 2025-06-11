@@ -6,7 +6,7 @@
 
 </div>
 
-> 💡 **Cita del día:** El código es como el humor. Cuando tienes que explicarlo, es malo. - Cory House
+> 💡 **Cita del día:** Cualquier tonto puede escribir código que una computadora pueda entender. Los buenos programadores escriben código que los humanos pueden entender. - Martin Fowler
 
 ---
 
@@ -92,7 +92,7 @@
 
 ### ⚡ "El código es poesía en movimiento" ⚡
 
-*Última actualización automática: 2025-06-11 18:44:30 UTC*
+*Última actualización automática: 2025-06-11 18:44:47 UTC*
 
 ![Snake animation](https://github.com/dardocode/dardocode/blob/output/github-contribution-grid-snake.svg)
 
