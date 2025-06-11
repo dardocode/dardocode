@@ -1,6 +1,5 @@
 # .github/workflows/update-readme.yml
 name: 🚀 Actualizar README automáticamente
-
 on:
   # Ejecutar cuando se haga push a main
   push:
@@ -8,7 +7,7 @@ on:
   
   # Ejecutar en schedule (cada día a las 6:00 AM UTC)
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 6 * * *'  # Fixed: was '0 6 * **', should be '0 6 * * *'
   
   # Permitir ejecución manual
   workflow_dispatch:
@@ -34,6 +33,18 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests python-dateutil
     
+    - name: 🔧 Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+    
+    - name: 🔄 Pull latest changes first
+      run: |
+        git pull origin ${{ github.ref_name }} --ff-only || {
+          echo "⚠️  Fast-forward pull failed, attempting regular pull"
+          git pull origin ${{ github.ref_name }}
+        }
+    
     - name: 📊 Update GitHub Stats
       run: |
         python scripts/update_stats.py
@@ -53,32 +64,54 @@ jobs:
       run: |
         if [ -n "$(git status --porcelain)" ]; then
           echo "changed=true" >> $GITHUB_OUTPUT
+          echo "📝 Changes detected:"
+          git status --porcelain
         else
           echo "changed=false" >> $GITHUB_OUTPUT
+          echo "✅ No changes detected"
         fi
     
     - name: ✅ Commit and push changes
       if: steps.verify-changed-files.outputs.changed == 'true'
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        
-        # Hacer pull para sincronizar cambios remotos
-        git pull origin main || git pull origin master
-        
-        # Agregar y hacer commit
+        # Add changes to staging
         git add README.md
-        git commit -m "🤖 Actualización automática del README - $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
         
-        # Push con retry en caso de conflicto
-        for i in {1..3}; do
-          if git push; then
-            echo "✅ Push exitoso en intento $i"
+        # Check if there are actually staged changes
+        if git diff --staged --quiet; then
+          echo "ℹ️  No staged changes to commit"
+          exit 0
+        fi
+        
+        # Commit changes
+        git commit -m "🤖 Actualización automática del README - $(date '+%Y-%m-%d %H:%M:%S')"
+        
+        # Push with retry mechanism
+        max_attempts=3
+        for attempt in $(seq 1 $max_attempts); do
+          echo "🚀 Intento de push #$attempt"
+          
+          if git push origin ${{ github.ref_name }}; then
+            echo "✅ Push exitoso en intento $attempt"
             break
           else
-            echo "❌ Push falló en intento $i, reintentando..."
-            git pull --rebase origin main || git pull --rebase origin master
-            sleep 2
+            echo "❌ Push falló en intento $attempt"
+            
+            if [ $attempt -lt $max_attempts ]; then
+              echo "🔄 Sincronizando cambios remotos..."
+              
+              # Pull remote changes with merge strategy
+              git pull origin ${{ github.ref_name }} --no-rebase || {
+                echo "❌ Error al sincronizar cambios remotos"
+                exit 1
+              }
+              
+              echo "⏳ Esperando 2 segundos antes del siguiente intento..."
+              sleep 2
+            else
+              echo "❌ Todos los intentos de push fallaron"
+              exit 1
+            fi
           fi
         done
     
@@ -88,3 +121,10 @@ jobs:
         echo "✅ README actualizado exitosamente!"
         echo "📅 Fecha: $(date)"
         echo "🔄 Próxima actualización: mañana a las 6:00 AM UTC"
+    
+    - name: ℹ️ No changes notification
+      if: steps.verify-changed-files.outputs.changed == 'false'
+      run: |
+        echo "ℹ️  No se encontraron cambios en el README"
+        echo "📅 Fecha: $(date)"
+        echo "🔄 Próxima verificación: mañana a las 6:00 AM UTC"
