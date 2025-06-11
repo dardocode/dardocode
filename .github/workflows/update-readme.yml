@@ -1,10 +1,6 @@
 # .github/workflows/update-readme.yml
 name: 🚀 Actualizar README automáticamente
 on:
-  # Ejecutar cuando se haga push a main
-  push:
-    branches: [ main, master ]
-  
   # Ejecutar en schedule (cada día a las 6:00 AM UTC)
   schedule:
     - cron: '0 6 * * *'  # Fixed: was '0 6 * **', should be '0 6 * * *'
