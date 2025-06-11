@@ -1,12 +1,12 @@
-# 🌆 ¡Hola! Soy dardocode 🚀
+# 🌆 ¡Hola! Soy dardocode ⚡
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Desarrollador+Full+Stack;Siempre+aprendiendo+algo+nuevo;Tuesday, June 03)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Desarrollador+Full+Stack;Siempre+aprendiendo+algo+nuevo;Wednesday, June 11)
 
 </div>
 
-> 💡 **Cita del día:** El debugging es como ser detective en una novela de crimen donde también eres el asesino. - Filipe Fortes
+> 💡 **Cita del día:** Primero, resuelve el problema. Entonces, escribe el código. - John Johnson
 
 ---
 
@@ -92,7 +92,7 @@
 
 ### ⚡ "El código es poesía en movimiento" ⚡
 
-*Última actualización automática: 2025-06-03 19:59:53 UTC*
+*Última actualización automática: 2025-06-11 18:39:32 UTC*
 
 ![Snake animation](https://github.com/dardocode/dardocode/blob/output/github-contribution-grid-snake.svg)
 
