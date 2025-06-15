@@ -1,12 +1,12 @@
-# 🌅 ¡Hola! Soy dardocode 🎯
+# 🌅 ¡Hola! Soy dardocode 🌟
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Desarrollador+Full+Stack;Siempre+aprendiendo+algo+nuevo;Saturday, June 14)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Desarrollador+Full+Stack;Siempre+aprendiendo+algo+nuevo;Sunday, June 15)
 
 </div>
 
-> 💡 **Cita del día:** El código es como el humor. Cuando tienes que explicarlo, es malo. - Cory House
+> 💡 **Cita del día:** Cualquier tonto puede escribir código que una computadora pueda entender. Los buenos programadores escriben código que los humanos pueden entender. - Martin Fowler
 
 ---
 
@@ -92,7 +92,7 @@
 
 ### ⚡ "El código es poesía en movimiento" ⚡
 
-*Última actualización automática: 2025-06-14 06:13:24 UTC*
+*Última actualización automática: 2025-06-15 06:13:42 UTC*
 
 ![Snake animation](https://github.com/dardocode/dardocode/blob/output/github-contribution-grid-snake.svg)
 
